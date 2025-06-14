@@ -14,7 +14,7 @@ function LetsBuild() {
                 </div>
                 {/* Text on top */}
                 <div className="relative z-10">
-                    <TextReveal className="text-center max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-5xl mx-auto text-4xl">Let's work together to build your future.</TextReveal>
+                    <TextReveal className="text-center max-w-sm sm:max-w-md md:max-w-2xl lg:max-w-4xl xl:max-w-5xl mx-auto text-4xl">Let&apos;s work together to build your future.</TextReveal>
                 </div>
             </div>
         </div>

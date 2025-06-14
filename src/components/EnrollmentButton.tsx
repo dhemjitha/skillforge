@@ -106,12 +106,12 @@ const EnrollmentButton: React.FC<EnrollmentButtonProps> = ({ price, courseName, 
           <div className="grid gap-6 py-4">
             <div className="text-center">
               <h3 className="text-lg font-semibold mb-2">{courseName}</h3>
-              <p className="text-gray-600">You're about to enroll in this amazing course!</p>
+              <p className="text-gray-600">You&apos;re about to enroll in this amazing course!</p>
             </div>
 
             {/* Course Benefits */}
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-lg p-4 space-y-3">
-              <h4 className="font-semibold text-gray-800 mb-3">What's included:</h4>
+              <h4 className="font-semibold text-gray-800 mb-3">What&apos;s included:</h4>
               <div className="grid grid-cols-1 gap-2">
                 <div className="flex items-center text-sm">
                   <BookOpen className="h-4 w-4 mr-2 text-blue-500" />

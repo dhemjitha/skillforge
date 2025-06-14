@@ -16,7 +16,7 @@ export default function WhatYoullLearn() {
             <CardHeader>
                 <CardTitle className="flex items-center">
                     <GraduationCap className="h-6 w-6 mr-2 text-blue-500" />
-                    What You'll Learn
+                    What You&apos;ll Learn
                 </CardTitle>
             </CardHeader>
             <CardContent>

@@ -86,7 +86,7 @@ const CreateCourseForm = () => {
                         Course Information
                     </CardTitle>
                     <CardDescription className="text-gray-600 mt-2">
-                        Provide detailed information about your course to help students understand what they'll learn
+                        Provide detailed information about your course to help students understand what they&apos;ll learn
                     </CardDescription>
                 </CardHeader>
                 <CardContent className="px-8 py-8">

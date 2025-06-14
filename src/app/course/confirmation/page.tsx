@@ -128,7 +128,7 @@ export default function ConfirmationPage() {
                   </div>
                   <h1 className="text-4xl font-bold mb-4">🎉 Enrollment Confirmed!</h1>
                   <p className="text-green-100 text-lg leading-relaxed max-w-2xl mx-auto">
-                    Congratulations! Your payment was successful and you're now officially enrolled. 
+                    Congratulations! Your payment was successful and you&apos;re now officially enrolled. 
                     Your learning journey begins today!
                   </p>
                 </div>
@@ -225,7 +225,7 @@ export default function ConfirmationPage() {
                       <div className="w-8 h-8 bg-white/20 rounded-lg flex items-center justify-center">
                         <CheckCircle className="h-4 w-4" />
                       </div>
-                      What's Next?
+                      What&apos;s Next?
                     </h3>
                     <div className="grid md:grid-cols-3 gap-6 text-center">
                       <div className="space-y-2">
@@ -286,7 +286,7 @@ export default function ConfirmationPage() {
               </div>
               <h1 className="text-3xl font-bold mb-4 text-gray-900">Payment Verification Failed</h1>
               <p className="text-gray-600 text-lg leading-relaxed mb-8 max-w-md mx-auto">
-                We couldn't verify your payment. If you believe this is an error, please contact our customer support team.
+                We couldn&apos;t verify your payment. If you believe this is an error, please contact our customer support team.
               </p>
               
               <div className="bg-red-50 border border-red-200 rounded-xl p-6 mb-8">

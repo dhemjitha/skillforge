@@ -13,7 +13,7 @@ function CTA() {
                             Never Stop Learning To be Expert
                             </h2>
                             <p className="text-muted-foreground mt-6 max-w-xl mx-auto">
-                            We are a team of experts who are passionate about helping you learn and grow as a expert in your field. Don't miss out on the opportunity!
+                            We are a team of experts who are passionate about helping you learn and grow as a expert in your field. Don&apos;t miss out on the opportunity!
                             </p>
                             <div className="mt-6">
                                 <Button variant="blue">
