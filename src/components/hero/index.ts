@@ -1,0 +1,8 @@
+export { ElegantShape } from "./ElegantShape"
+export { FloatingShapes } from "./FloatingShapes"
+export { HeroBadge } from "./HeroBadge"
+export { HeroTitle } from "./HeroTitle"
+export { HeroDescription } from "./HeroDescription"
+export { HeroContent } from "./HeroContent"
+export { fadeUpVariants } from "./animations"
+export { shapesConfig } from "./shapes-config" 
