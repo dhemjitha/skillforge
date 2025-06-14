@@ -10,6 +10,9 @@ import { ConfettiFireworks } from "@/components/magicui/ConfettiFireworks"
 import { toast } from "sonner"
 import { useAuth } from "@clerk/nextjs"
 
+// Force dynamic rendering to avoid prerendering issues
+export const dynamic = 'force-dynamic'
+
 export default function ConfirmationPage() {
   const searchParams = useSearchParams()
   const router = useRouter()
