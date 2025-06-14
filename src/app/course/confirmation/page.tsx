@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useState, useRef } from "react"
+import { useEffect, useState, useRef, Suspense } from "react"
 import { useSearchParams, useRouter } from "next/navigation"
 import { Loader2, CheckCircle, AlertCircle, Home, Calendar, User, Clock, Globe, BarChart3, DollarSign } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -13,7 +13,7 @@ import { useAuth } from "@clerk/nextjs"
 // Force dynamic rendering to avoid prerendering issues
 export const dynamic = 'force-dynamic'
 
-export default function ConfirmationPage() {
+function ConfirmationContent() {
   const searchParams = useSearchParams()
   const router = useRouter()
   const [status, setStatus] = useState<"loading" | "success" | "error">("loading")
@@ -318,5 +318,13 @@ export default function ConfirmationPage() {
         )}
       </div>
     </div>
+  )
+}
+
+export default function ConfirmationPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ConfirmationContent />
+    </Suspense>
   )
 } 
